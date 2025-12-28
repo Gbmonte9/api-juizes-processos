@@ -1,0 +1,35 @@
+# Pastas de ambiente virtual
+.venv/
+env/
+venv/
+
+# Bytecode do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de configuração do IDE
+.vscode/
+.idea/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# Arquivos de banco de dados local (ex: SQLite)
+*.db
+*.sqlite3
+
+# Uploads ou arquivos gerados
+uploads/
+
+# Arquivos de configuração de sistema
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# Alembic migrations (opcional, se quiser versionar apenas o código)
+# alembic/versions/
+
+# Arquivos de teste local
+pytest_cache/
